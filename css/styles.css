@@ -1,0 +1,27 @@
+#game-container {
+  background-image: url(../images/background.png);
+  width: 800px;
+  height: 500px; }
+
+#holes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+
+.hole {
+  background-image: url(../images/hole.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+  text-align: center;
+  width: 60px;
+  height: 80px; }
+  .hole img {
+    max-width: 30px; }
+
+.mole {
+  display: none; }
+
+.hole.active .mole {
+  display: inline; }

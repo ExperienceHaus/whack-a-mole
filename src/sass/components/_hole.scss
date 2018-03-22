@@ -1,0 +1,19 @@
+#holes{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hole {
+  background-image:url(../images/hole.png);
+  background-repeat:no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+  text-align:center;
+  width:60px;
+  height: 80px;
+  img{
+    max-width:30px;
+  }
+}

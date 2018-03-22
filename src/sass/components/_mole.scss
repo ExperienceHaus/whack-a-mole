@@ -1,0 +1,7 @@
+.mole {
+  display:none;
+}
+
+.hole.active .mole {
+  display: inline;
+}

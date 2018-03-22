@@ -7,7 +7,7 @@ var imagemin = require('gulp-imagemin');
 
 // to process sass files
 gulp.task('styles', function() {
-  return gulp.src('./src/sass/**/*./scss')
+  return gulp.src('./src/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'));
 });
